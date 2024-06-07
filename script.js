@@ -1,7 +1,8 @@
 function calculate() {
     var amount = parseFloat(document.getElementById("amount").value);
     var r = 88.2 / 100;
-    var t = 4.3452380952380;
+    var t = parseFloat(document.getElementById("day").value);
+    t2 = t/84
 
     var a = amount * Math.pow((1 + r), t);
     var profit = a - amount;
