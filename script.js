@@ -1,7 +1,7 @@
 function calculate() {
     var amount = parseFloat(document.getElementById("amount").value);
     var r = 88.2 / 100;
-    var t = parseFloat(document.getElementById("day").value);
+    var t = parseFloat(document.getElementById("days").value);
     t2 = t/84
 
     var a = amount * Math.pow((1 + r), t);
