@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profit Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Profit Calculator of Hibox</h1>
+    <div class="input-container">
+        <label for="amount">Enter the Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount...">
+        <br><br><button onclick="calculate()">Calculate</button>
+    </div>
+    <div id="result" style="display: none;">
+        <p id="calculated-amount"></p>
+        <p id="profit"></p>
+        <p id="percentage-increase"></p>
+    </div>
+    <footer>
+        <p style="font-weight: bold;">Made by Namit!</p>
+        </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
