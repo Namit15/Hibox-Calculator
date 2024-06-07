@@ -1,10 +1,10 @@
 function calculate() {
     var amount = parseFloat(document.getElementById("amount").value);
-    var r = 88.2 / 100;
+    var r = 84 / 100;
     var t = parseFloat(document.getElementById("days").value);
-    t2 = t/84
+    final_t = t / 84
 
-    var a = amount * Math.pow((1 + r), t);
+    var a = amount * Math.pow((1 + r), final_t);
     var profit = a - amount;
     var percentageIncrease = (profit / amount) * 100;
 
